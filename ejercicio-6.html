@@ -4,35 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-	.todo{
-		position: relative;
-		
-
-	}
-	.tiempo{
-	position: absolute;
-    left: 121px;
-    bottom: 0px;
-	width: 20px;
-	height: 20px;
-		
-	}
-</style>
+		body html{
+			width: 20%;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		.relative{
+			position: relative;
+			float: left;
+		}
+		.absolute{
+			position: absolute;
+			float: left;
+			left: 160px;
+			top: 157px;
+		}
+	</style>
 </head>
-<body><div class="todo">
-
-		<div class="tiempo">
-		<img src="images/despacho.png">
-
+<body>
+	<div class="todo">
+		<div class="relative">
+			<img src="images/ribbon_48h.png">
 		</div>
-
-		<div class="imagen">
-		<img src="images/ribbon_48h.png">
+		<div class=absolute>
+			<img width="60" height="55"src="images/despacho.png">
 		</div>
-
-		
-	</div>
-
-	
 </body>
 </html>
